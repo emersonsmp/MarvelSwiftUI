@@ -14,7 +14,6 @@ struct GetCharactersParams {
 }
 
 protocol GetCharactersUC {
-    /// Get a list of characters from the Marvel API.
     func execute(with params: GetCharactersParams) async -> Result<PaginatedResponse<Character>, AppError>
 }
 

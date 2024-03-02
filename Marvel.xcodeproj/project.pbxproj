@@ -354,6 +354,7 @@
 		D2F1746C2B7AE2530022A801 /* Repository */ = {
 			isa = PBXGroup;
 			children = (
+				D24375142B83D8E300981EEA /* DefaultFavoritesRepository.swift */,
 				D2F1746D2B7AE2610022A801 /* DefaultCharactersRepository.swift */,
 				D2BEE67F2B7BF00B00DC67E9 /* DefaultComicRepository.swift */,
 			);
@@ -384,7 +385,6 @@
 				D2F1747C2B7AEB290022A801 /* CharacterRepository.swift */,
 				D2BEE6812B7BF01B00DC67E9 /* ComicRepository.swift */,
 				D24375122B83D89000981EEA /* FavoritesRepository.swift */,
-				D24375142B83D8E300981EEA /* DefaultFavoritesRepository.swift */,
 			);
 			path = Repository;
 			sourceTree = "<group>";
